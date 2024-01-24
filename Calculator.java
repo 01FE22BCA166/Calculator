@@ -1,4 +1,4 @@
-class Calculator{
+class Calculator extends ExtendedCalculator{
     /**
      * The function "addition" takes two float numbers as input and returns their sum.
      * 
@@ -57,5 +57,11 @@ public static void main(String []args){
     System.out.println("Multiplication:"+mul);
     float div=calc.division(num1,num2);
     System.out.println("Division:"+div);
+    float sqr=calc.square(num1);
+    System.out.println("Square:"+sqr);
+    float cubes=calc.cube(num1);
+    System.out.println("Cube:"+cubes);
+    float mod=calc.modulus(num1,num2);
+    System.out.println("Modulus:"+sqr);
 }
 }
